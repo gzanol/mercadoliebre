@@ -26,19 +26,23 @@ body {
  }
 
 .copy-header {
+font-size: 16px;
  font-weight: 400;
  text-align: center;
  display: flex;
  flex-direction: row; 
 }
 
-.main-header-top-bar i{
-    display: block;
+.main-header-top-bar {
+
+    display: flex;
+    flex-wrap: wrap;
     font-size: 20px;
 }
 
 .logo{
     max-width:  200px;
+
 }
 
 .hamburger-buttom{
@@ -139,10 +143,10 @@ footer{
     font-size: 12px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 630px) {
     .main-header-top-bar {
         display: flex;
-        justify-content: space-between;
+    
         
     }
     .copy-header{
@@ -192,7 +196,12 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
+}
+    .copy-header{
+        margin: 0;
+        font-size: 16px;
+        font-weight: 400;
+   
 }
  }
 
@@ -225,7 +234,7 @@ footer{
     .copy-header{
         margin: 0;
         max-width: none;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
     }
     .main-navbar {
