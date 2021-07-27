@@ -11,5 +11,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gzanol/mercadoliebre.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gzanol/mercadoliebre/issues"
+  },
+  "homepage": "https://github.com/gzanol/mercadoliebre#readme"
 }
