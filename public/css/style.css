@@ -1,4 +1,6 @@
-*{box-sizing: border-box;}
+*{box-sizing: border-box;
+padding: 0;
+margin: 0;}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -142,7 +144,29 @@ footer{
 .copyright{
     font-size: 12px;
 }
+.formRegSole input{
+    position:relative;
+    left:10%;
+    width : 50%;
+    margin: 10px;
+    padding: 10px;
+    align-items:center;
+}
 
+section.formRegSole{
+    font-size: 15px;
+    border:black solid 3px;
+    background-color: rgb(173, 172, 172);
+}
+.formulario01{
+    border-radius:10px;
+    font-size: 15px;
+    
+   
+    
+    
+    
+}
 @media (min-width: 630px) {
 
 .main-header-top-bar {
