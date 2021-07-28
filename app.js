@@ -10,6 +10,7 @@ app.get('/', function(request, response) {
 })
 
 app.use(express.static('public'))
+app.use(express.static('views'))
 
 app.get('*', function(request, response) {
     response.send('NOT FOUND', 404)
