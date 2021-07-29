@@ -244,7 +244,7 @@ section.formReg {
     align-items: center;
  }
 
-@media (min-width: 570px) {
+@media (min-width: 370px) {
   
 .main-header-top-bar {
         display: flex;
