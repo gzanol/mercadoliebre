@@ -155,7 +155,6 @@ footer{
     margin: 30px; 
 }
 
-
 .ord input {
     left: 10%;
     width: 50%;
@@ -244,7 +243,7 @@ section.formReg {
     align-items: center;
  }
 
-@media (min-width: 370px) {
+@media (min-width: 360px) {
   
 .main-header-top-bar {
         display: flex;
